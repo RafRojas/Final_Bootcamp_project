@@ -1,0 +1,301 @@
+gender,ethnicity,parental_education,lunch,test_preparation_course,pass/fail_math,math_score,pass/fail_reading,reading_score,pass/fail_writing,writing_score,failed_courses,midterm_results,midterm_results_pred_logistic,midterm_results_pred_rf,average_grade,average_grade_pred_linear,average_grade_pred_knn
+0,M,A,high school,standard,yes,passed,67,passed,67,passed,63,good standing,good standing,good standing,good standing,65.67,82.3125,81.665
+1,F,D,no high school,reduced,no,failed,40,failed,59,failed,55,math/reading,summer school,good standing,good standing,51.33,76.5156,73.5
+2,M,E,high school,reduced,no,failed,59,passed,60,failed,50,math/writing,summer school,good standing,good standing,56.33,46.5312,45.2233
+3,M,B,high school,standard,no,passed,77,passed,78,passed,68,good standing,good standing,good standing,good standing,74.33,78.4688,78.6675
+4,M,E,associate,standard,yes,passed,78,passed,73,passed,68,good standing,good standing,summer school,summer school,73.0,76.5,65.67
+5,F,D,high school,standard,no,passed,63,passed,77,passed,76,good standing,good standing,summer school,good standing,72.0,75.0469,75.0
+6,F,A,bachelor,standard,no,passed,62,failed,59,passed,63,reading,summer school,good standing,good standing,61.33,84.4688,86.67
+7,M,E,high school,standard,yes,passed,93,passed,88,passed,84,good standing,good standing,good standing,good standing,88.33,83.6094,88.33
+8,M,D,high school,standard,no,passed,63,failed,56,passed,65,reading,summer school,good standing,good standing,61.33,80.375,82.0
+9,M,C,high school,reduced,no,failed,47,failed,42,failed,45,math/reading,summer school,good standing,good standing,44.67,77.3594,74.75
+10,M,E,high school,standard,yes,passed,99,passed,83,passed,85,good standing,good standing,summer school,summer school,89.0,58.6719,54.3451
+11,F,D,high school,standard,yes,passed,80,passed,87,passed,90,good standing,good standing,summer school,good standing,85.67,58.0625,54.5
+12,M,D,associate,standard,yes,passed,77,passed,87,passed,85,good standing,good standing,good standing,summer school,83.0,60.2969,59.67
+13,M,C,high school,standard,yes,passed,74,passed,74,passed,73,good standing,good standing,good standing,good standing,73.67,74.6094,69.0
+14,M,E,no high school,standard,yes,passed,81,passed,87,passed,85,good standing,good standing,summer school,summer school,84.33,43.5625,46.33
+15,M,E,associate,reduced,no,passed,69,passed,61,failed,57,writing,summer school,summer school,summer school,62.33,41.6406,44.335
+16,M,B,high school,standard,no,failed,58,failed,47,failed,42,math/reading,summer school,good standing,good standing,49.0,73.9531,73.055
+17,F,C,associate,standard,yes,failed,54,passed,62,passed,65,math,summer school,good standing,good standing,60.33,75.875,73.3333
+18,F,C,associate,reduced,no,failed,23,failed,44,failed,44,math/reading,summer school,good standing,summer school,37.0,75.4688,75.4771
+19,M,C,high school,reduced,no,failed,39,failed,32,failed,31,math/reading,summer school,good standing,good standing,34.0,74.7812,77.3079
+20,F,C,associate,standard,no,passed,83,passed,76,passed,88,good standing,good standing,good standing,good standing,82.33,48.9062,51.835
+21,M,C,associate,standard,no,failed,58,failed,52,failed,55,math/reading,summer school,good standing,good standing,55.0,77.1406,76.2
+22,M,B,high school,standard,yes,passed,71,passed,69,passed,73,good standing,good standing,good standing,good standing,71.0,79.3125,76.5567
+23,F,B,high school,reduced,no,failed,44,failed,55,failed,54,math/reading,summer school,good standing,good standing,51.0,80.375,82.0
+24,M,E,no high school,reduced,no,failed,46,failed,38,failed,32,math/reading,summer school,good standing,summer school,38.67,77.1719,90.33
+25,M,C,high school,reduced,no,failed,51,failed,45,failed,42,math/reading,summer school,good standing,good standing,46.0,78.0312,78.67
+26,F,C,no high school,standard,no,failed,53,passed,60,failed,56,math/writing,summer school,good standing,good standing,56.33,76.2969,70.1683
+27,M,E,high school,standard,no,passed,71,passed,68,passed,60,good standing,good standing,good standing,summer school,66.33,74.0781,76.934
+28,F,B,high school,standard,yes,passed,74,passed,89,passed,89,good standing,good standing,good standing,good standing,84.0,77.3594,74.75
+29,F,A,no high school,reduced,no,failed,33,failed,54,failed,51,math/reading,summer school,good standing,good standing,46.0,65.0781,60.33
+30,M,B,high school,standard,no,passed,87,passed,79,passed,77,good standing,good standing,good standing,good standing,81.0,81.0312,79.83
+31,M,A,bachelor,reduced,no,passed,78,passed,74,passed,73,good standing,good standing,summer school,summer school,75.0,71.0,75.5
+32,M,A,no high school,reduced,yes,failed,40,failed,41,failed,39,math/reading,summer school,summer school,summer school,40.0,46.5625,28.67
+33,F,B,associate,standard,yes,passed,65,passed,65,passed,71,good standing,good standing,good standing,good standing,67.0,78.8594,75.89
+34,F,B,bachelor,standard,yes,passed,79,passed,88,passed,89,good standing,good standing,good standing,good standing,85.33,77.375,78.835
+35,F,A,bachelor,standard,no,passed,68,passed,74,passed,74,good standing,good standing,good standing,good standing,72.0,66.8281,62.0
+36,F,C,high school,standard,yes,failed,57,passed,77,passed,75,math,summer school,good standing,good standing,69.67,79.9375,79.19
+37,M,B,high school,reduced,no,passed,67,passed,65,failed,54,writing,summer school,good standing,good standing,62.0,76.7188,83.666
+38,F,B,high school,reduced,yes,failed,58,passed,68,passed,73,math,summer school,good standing,summer school,66.33,76.2344,77.6421
+39,M,E,associate,standard,no,passed,98,passed,81,passed,77,good standing,good standing,good standing,good standing,85.33,58.8281,56.8371
+40,F,B,master,reduced,no,failed,54,passed,75,passed,72,math,summer school,good standing,summer school,67.0,58.0469,55.8389
+41,M,D,high school,standard,no,passed,77,passed,67,passed,64,good standing,good standing,good standing,good standing,69.33,84.5938,74.33
+42,M,E,high school,standard,yes,passed,87,passed,79,passed,82,good standing,good standing,summer school,summer school,82.67,44.2031,48.0
+43,F,C,master,standard,no,failed,58,passed,70,passed,70,math,summer school,summer school,summer school,66.0,47.8438,45.0
+44,M,E,high school,standard,no,passed,100,passed,88,passed,87,good standing,good standing,good standing,good standing,91.67,47.6094,47.7386
+45,M,C,bachelor,standard,no,passed,60,failed,46,failed,51,reading/writing,summer school,good standing,good standing,52.33,81.1875,75.5
+46,M,C,associate,reduced,no,passed,64,passed,63,failed,57,writing,summer school,good standing,good standing,61.33,78.625,76.665
+47,F,E,no high school,standard,yes,passed,65,passed,76,passed,78,good standing,good standing,good standing,good standing,73.0,76.9531,76.4764
+48,F,D,high school,standard,no,passed,68,passed,72,passed,73,good standing,good standing,summer school,summer school,71.0,72.2344,71.7843
+49,M,C,associate,reduced,yes,passed,60,passed,63,failed,57,writing,summer school,good standing,good standing,60.0,77.3594,74.75
+50,M,D,high school,standard,no,passed,65,passed,68,passed,64,good standing,good standing,summer school,summer school,65.67,72.4531,70.0985
+51,F,C,no high school,reduced,no,failed,52,failed,58,passed,60,math/reading,summer school,summer school,summer school,56.67,54.4531,53.0
+52,F,C,associate,standard,no,passed,74,passed,81,passed,85,good standing,good standing,summer school,good standing,80.0,47.8594,49.78
+53,F,C,high school,reduced,no,failed,36,failed,53,failed,49,math/reading,summer school,good standing,good standing,46.0,77.6094,77.068
+54,M,D,high school,reduced,no,failed,57,failed,57,failed,47,math/reading,summer school,summer school,summer school,53.67,45.4844,52.6675
+55,F,C,high school,standard,yes,failed,56,passed,60,passed,62,math,summer school,good standing,good standing,59.33,73.7031,74.0825
+56,F,C,bachelor,standard,yes,passed,67,passed,80,passed,84,good standing,good standing,good standing,good standing,77.0,77.4844,72.67
+57,M,D,associate,standard,yes,passed,88,passed,87,passed,83,good standing,good standing,good standing,good standing,86.0,80.6875,86.335
+58,F,D,high school,reduced,no,failed,42,passed,61,failed,51,math/writing,summer school,good standing,good standing,51.33,78.0312,78.67
+59,M,E,no high school,standard,no,passed,68,failed,51,failed,48,reading/writing,summer school,summer school,summer school,55.67,74.2031,71.5825
+60,M,D,high school,reduced,no,passed,76,passed,66,passed,68,good standing,good standing,summer school,summer school,70.0,43.5469,48.33
+61,F,E,no high school,standard,no,failed,58,passed,63,failed,59,math/writing,summer school,summer school,summer school,60.0,44.4062,45.5533
+62,M,E,no high school,standard,yes,passed,69,passed,67,passed,62,good standing,good standing,good standing,summer school,66.0,76.2344,77.6421
+63,M,A,bachelor,standard,yes,passed,77,passed,82,passed,78,good standing,good standing,good standing,good standing,79.0,77.6094,77.068
+64,M,D,master,standard,yes,passed,83,passed,93,passed,97,good standing,good standing,good standing,good standing,91.0,84.2188,82.67
+65,F,C,no high school,reduced,yes,failed,49,passed,74,passed,70,math,summer school,good standing,good standing,64.33,79.4531,78.1675
+66,M,C,high school,standard,no,passed,71,passed,60,failed,56,writing,summer school,good standing,good standing,62.33,76.7656,77.11
+67,F,D,no high school,reduced,no,failed,47,failed,46,failed,49,math/reading,summer school,good standing,good standing,47.33,59.0938,54.0
+68,M,B,high school,standard,no,passed,79,passed,64,passed,60,good standing,good standing,good standing,good standing,67.67,65.9844,63.83
+69,F,C,high school,standard,no,passed,60,passed,64,failed,57,writing,summer school,good standing,good standing,60.33,62.4531,63.1225
+70,F,C,associate,standard,yes,failed,56,passed,68,passed,73,math,summer school,good standing,good standing,65.67,50.5625,47.9812
+71,M,C,associate,standard,no,failed,57,failed,52,failed,47,math/reading,summer school,summer school,summer school,52.0,74.2031,71.5825
+72,F,B,high school,standard,no,failed,49,passed,70,passed,63,math,summer school,summer school,summer school,60.67,71.3906,73.75
+73,F,C,no high school,standard,yes,passed,79,passed,76,passed,81,good standing,good standing,good standing,good standing,78.67,83.1562,85.33
+74,M,B,master,reduced,no,passed,71,passed,76,passed,67,good standing,good standing,good standing,summer school,71.33,60.7656,61.33
+75,F,C,high school,standard,no,passed,71,passed,77,passed,70,good standing,good standing,good standing,good standing,72.67,65.4844,63.3444
+76,F,C,high school,standard,no,failed,47,passed,63,failed,59,math/writing,summer school,summer school,summer school,56.33,77.6406,80.835
+77,F,D,high school,reduced,no,passed,72,passed,91,passed,81,good standing,good standing,good standing,good standing,81.33,79.0156,82.5
+78,M,C,associate,standard,no,passed,78,passed,73,passed,76,good standing,good standing,summer school,summer school,75.67,57.6094,67.33
+79,M,D,no high school,standard,no,failed,54,failed,43,failed,45,math/reading,summer school,good standing,good standing,47.33,79.0938,82.0
+80,F,B,bachelor,standard,no,failed,46,failed,59,passed,62,math/reading,summer school,good standing,good standing,55.67,62.9531,63.67
+81,F,D,no high school,reduced,no,failed,31,failed,38,failed,42,math/reading,summer school,good standing,good standing,37.0,61.25,70.33
+82,F,C,associate,reduced,no,failed,51,failed,59,failed,59,math/reading,summer school,good standing,good standing,56.33,78.625,76.665
+83,M,B,high school,standard,yes,passed,78,passed,76,passed,73,good standing,good standing,summer school,summer school,75.67,45.7031,48.8867
+84,F,B,associate,reduced,no,failed,32,failed,41,failed,39,math/reading,summer school,summer school,summer school,37.33,72.9062,84.33
+85,F,C,no high school,standard,no,failed,53,passed,71,passed,69,math,summer school,summer school,summer school,64.33,46.3906,37.0
+86,F,C,high school,reduced,no,passed,63,passed,76,passed,69,good standing,good standing,summer school,good standing,69.33,75.0469,75.0
+87,M,D,high school,standard,no,passed,97,passed,93,passed,88,good standing,good standing,summer school,summer school,92.67,77.6406,80.835
+88,F,D,high school,standard,no,failed,56,failed,52,passed,61,math/reading,summer school,good standing,summer school,56.33,55.7031,56.8065
+89,M,B,high school,standard,no,passed,72,passed,76,passed,72,good standing,good standing,good standing,good standing,73.33,76.1094,77.9043
+90,M,C,high school,reduced,no,failed,57,failed,47,failed,42,math/reading,summer school,good standing,good standing,48.67,82.0312,72.5567
+91,M,B,no high school,standard,no,passed,74,passed,71,passed,70,good standing,good standing,good standing,good standing,71.67,55.2656,58.6675
+92,F,D,master,standard,no,passed,81,passed,81,passed,87,good standing,good standing,good standing,good standing,83.0,76.5156,73.5
+93,M,D,bachelor,standard,yes,passed,94,passed,87,passed,93,good standing,good standing,summer school,summer school,91.33,58.3594,62.4225
+94,M,B,master,reduced,no,passed,81,passed,73,passed,72,good standing,good standing,good standing,good standing,75.33,76.9531,76.4764
+95,F,C,high school,standard,yes,failed,58,passed,63,passed,67,math,summer school,summer school,summer school,62.67,72.0469,70.0
+96,F,E,associate,standard,yes,passed,95,passed,100,passed,100,good standing,good standing,summer school,summer school,98.33,74.2031,71.5825
+97,M,B,high school,reduced,no,failed,45,failed,52,failed,49,math/reading,summer school,good standing,good standing,48.67,56.75,52.4464
+98,M,A,high school,standard,no,passed,63,failed,50,failed,49,reading/writing,summer school,good standing,good standing,54.0,81.2031,69.33
+99,M,B,associate,standard,no,passed,60,failed,54,failed,53,reading/writing,summer school,good standing,good standing,55.67,83.375,97.0
+100,M,C,high school,reduced,yes,failed,54,passed,61,passed,62,math,summer school,good standing,good standing,59.0,79.3125,76.5567
+101,M,C,high school,standard,yes,passed,75,passed,78,passed,79,good standing,good standing,good standing,good standing,77.33,57.4062,50.31
+102,M,E,high school,standard,no,passed,79,passed,78,passed,77,good standing,good standing,good standing,good standing,78.0,52.3438,49.3995
+103,M,D,high school,standard,no,passed,66,passed,67,passed,67,good standing,good standing,good standing,good standing,66.67,77.7812,80.4529
+104,F,B,high school,standard,no,failed,47,failed,58,failed,58,math/reading,summer school,good standing,good standing,54.33,82.1094,82.1133
+105,F,D,bachelor,standard,no,passed,70,passed,78,passed,82,good standing,good standing,summer school,summer school,76.67,47.0,47.5
+106,M,D,high school,standard,no,passed,82,passed,74,passed,73,good standing,good standing,good standing,good standing,76.33,76.7344,77.4433
+107,M,A,bachelor,standard,no,failed,56,failed,38,failed,44,math/reading,summer school,good standing,good standing,46.0,83.3594,87.835
+108,M,B,associate,standard,no,passed,92,passed,78,passed,71,good standing,good standing,good standing,good standing,80.33,80.2031,80.334
+109,M,C,high school,reduced,no,failed,30,failed,33,failed,33,math/reading,summer school,good standing,summer school,32.0,74.0781,76.934
+110,F,C,high school,standard,yes,passed,79,passed,88,passed,86,good standing,good standing,good standing,good standing,84.33,58.9062,53.2528
+111,F,D,no high school,standard,no,failed,41,failed,52,failed,47,math/reading,summer school,good standing,good standing,46.67,79.9375,75.38
+112,F,C,master,standard,no,passed,63,passed,82,passed,71,good standing,good standing,good standing,good standing,72.0,79.0156,82.5
+113,M,A,bachelor,reduced,no,failed,43,failed,34,failed,33,math/reading,summer school,good standing,good standing,36.67,80.2031,86.1675
+114,M,D,high school,standard,no,passed,77,passed,76,passed,74,good standing,good standing,summer school,summer school,75.67,71.8438,77.0
+115,M,B,associate,standard,yes,passed,76,passed,79,passed,76,good standing,good standing,summer school,summer school,77.0,73.5625,77.405
+116,F,E,high school,reduced,no,failed,49,passed,61,passed,63,math,summer school,good standing,good standing,57.67,80.2031,86.1675
+117,M,C,associate,standard,yes,failed,59,failed,57,failed,55,math/reading,summer school,summer school,summer school,57.0,42.5,42.8338
+118,M,B,bachelor,reduced,no,failed,59,passed,70,failed,58,math/writing,summer school,good standing,summer school,62.33,75.0,78.78
+119,F,D,no high school,standard,yes,passed,76,passed,90,passed,87,good standing,good standing,summer school,summer school,84.33,64.8906,64.67
+120,F,C,high school,standard,yes,failed,55,passed,71,passed,71,math,summer school,good standing,summer school,65.67,46.9062,46.3093
+121,F,D,bachelor,standard,yes,passed,78,passed,87,passed,89,good standing,good standing,good standing,good standing,84.67,79.4531,78.1675
+122,F,C,bachelor,standard,yes,failed,51,failed,53,passed,62,math/reading,summer school,good standing,good standing,55.33,57.4062,50.31
+123,F,C,no high school,standard,yes,failed,41,failed,43,failed,45,math/reading,summer school,summer school,good standing,43.0,61.0781,63.0012
+124,F,D,associate,standard,no,passed,74,passed,78,passed,86,good standing,good standing,good standing,good standing,79.33,76.9531,76.4764
+125,M,C,master,standard,no,passed,62,failed,54,failed,58,reading/writing,summer school,good standing,summer school,58.0,46.9062,46.3093
+126,M,D,associate,standard,no,passed,77,passed,71,passed,64,good standing,good standing,good standing,good standing,70.67,75.4375,73.83
+127,M,C,no high school,standard,no,failed,45,failed,52,failed,45,math/reading,summer school,good standing,good standing,47.33,79.4531,78.1675
+128,M,E,high school,standard,yes,passed,100,passed,84,passed,87,good standing,good standing,summer school,summer school,90.33,62.2969,63.204
+129,F,D,associate,reduced,yes,passed,83,passed,95,passed,100,good standing,good standing,good standing,good standing,92.67,78.2031,76.2211
+130,F,E,associate,reduced,yes,passed,77,passed,75,passed,82,good standing,good standing,summer school,summer school,78.0,77.6406,80.835
+131,M,C,high school,standard,yes,passed,66,passed,70,passed,64,good standing,good standing,summer school,summer school,66.67,65.7031,63.33
+132,M,B,high school,standard,no,passed,65,passed,63,failed,57,writing,summer school,good standing,good standing,61.67,73.9531,73.055
+133,M,D,associate,standard,no,passed,62,failed,55,failed,56,reading/writing,summer school,good standing,good standing,57.67,72.875,71.475
+134,M,E,high school,standard,no,failed,55,failed,54,failed,54,math/reading,summer school,good standing,good standing,54.33,79.9531,72.0
+135,M,C,no high school,reduced,no,passed,73,passed,78,passed,69,good standing,good standing,good standing,good standing,73.33,64.2656,63.725
+136,M,A,high school,standard,yes,passed,73,passed,81,passed,76,good standing,good standing,good standing,good standing,76.67,64.2656,63.725
+137,F,B,associate,standard,yes,failed,48,passed,66,passed,68,math,summer school,summer school,summer school,60.67,56.2969,50.5563
+138,M,D,high school,reduced,no,failed,52,failed,44,failed,49,math/reading,summer school,summer school,summer school,48.33,42.5,42.8338
+139,F,C,no high school,reduced,no,passed,60,passed,72,passed,64,good standing,good standing,good standing,good standing,65.33,61.6719,60.33
+140,M,B,associate,reduced,no,passed,68,passed,63,failed,57,writing,summer school,good standing,good standing,62.67,77.2656,75.0
+141,F,D,high school,reduced,no,passed,65,passed,77,passed,83,good standing,good standing,good standing,good standing,75.0,73.9531,73.055
+142,F,D,bachelor,standard,no,passed,86,passed,83,passed,87,good standing,good standing,good standing,good standing,85.33,79.5312,74.165
+143,F,B,associate,standard,no,failed,55,passed,62,passed,60,math,summer school,good standing,good standing,59.0,82.4219,85.89
+144,M,B,master,standard,yes,passed,80,passed,71,passed,68,good standing,good standing,good standing,good standing,73.0,49.5469,48.4158
+145,F,B,high school,reduced,no,failed,51,failed,57,failed,57,math/reading,summer school,good standing,good standing,55.0,74.7812,77.3079
+146,F,B,no high school,standard,yes,passed,63,passed,61,passed,66,good standing,good standing,summer school,summer school,63.33,47.0,47.5
+147,M,E,high school,standard,no,passed,60,failed,55,failed,46,reading/writing,summer school,summer school,good standing,53.67,45.6875,47.9993
+148,F,E,bachelor,standard,yes,passed,100,passed,100,passed,100,good standing,good standing,good standing,good standing,100.0,84.4688,86.67
+149,M,A,associate,reduced,no,failed,46,failed,44,failed,44,math/reading,summer school,summer school,summer school,44.67,61.0156,66.1133
+150,F,C,high school,standard,yes,passed,67,passed,78,passed,80,good standing,good standing,summer school,good standing,75.0,75.0469,75.0
+151,F,C,high school,reduced,no,failed,54,passed,67,failed,59,math/writing,summer school,summer school,summer school,60.0,75.4688,74.5
+152,F,B,associate,standard,no,passed,63,passed,79,passed,76,good standing,good standing,summer school,summer school,72.67,54.2188,48.5538
+153,M,D,bachelor,standard,no,passed,68,passed,66,passed,73,good standing,good standing,good standing,good standing,69.0,77.1406,76.2
+154,F,C,associate,reduced,no,failed,54,passed,63,failed,58,math/writing,summer school,good standing,good standing,58.33,76.9531,76.4764
+155,F,C,high school,standard,no,failed,43,failed,44,failed,47,math/reading,summer school,summer school,summer school,44.67,48.1094,43.335
+156,M,B,high school,reduced,no,passed,64,passed,64,failed,59,writing,summer school,good standing,good standing,62.33,80.1406,82.67
+157,F,E,associate,reduced,no,passed,92,passed,87,passed,87,good standing,good standing,good standing,good standing,88.67,79.0156,82.5
+158,F,D,associate,reduced,no,passed,82,passed,95,passed,93,good standing,good standing,summer school,summer school,90.0,71.5781,64.0
+159,M,E,no high school,reduced,no,passed,84,passed,78,passed,79,good standing,good standing,good standing,good standing,80.33,77.3594,74.75
+160,F,D,associate,standard,yes,passed,84,passed,98,passed,97,good standing,good standing,good standing,good standing,93.0,48.6875,49.915
+161,M,D,associate,reduced,no,passed,65,passed,63,passed,65,good standing,good standing,good standing,good standing,64.33,76.9531,76.4764
+162,F,C,bachelor,standard,no,passed,83,passed,92,passed,91,good standing,good standing,summer school,summer school,88.67,45.4844,52.6675
+163,F,B,no high school,standard,yes,passed,70,passed,75,passed,75,good standing,good standing,good standing,good standing,73.33,73.7031,74.0825
+164,M,A,bachelor,standard,yes,passed,66,passed,72,passed,70,good standing,good standing,summer school,summer school,69.33,73.0781,76.2896
+165,F,D,bachelor,standard,yes,passed,71,passed,87,passed,92,good standing,good standing,good standing,good standing,83.33,56.1094,58.67
+166,M,B,bachelor,standard,no,passed,66,passed,64,failed,58,writing,summer school,good standing,good standing,62.67,56.1094,58.67
+167,F,B,no high school,standard,yes,failed,57,passed,64,passed,68,math,summer school,summer school,summer school,63.0,42.5,42.8338
+168,F,C,master,standard,no,passed,86,passed,90,passed,93,good standing,good standing,good standing,good standing,89.67,74.6094,69.0
+169,F,A,high school,standard,no,passed,80,passed,85,passed,83,good standing,good standing,good standing,good standing,82.67,76.7344,77.4433
+170,F,B,high school,standard,no,passed,62,passed,60,failed,59,writing,summer school,summer school,summer school,60.33,42.5,42.8338
+171,F,D,high school,standard,no,passed,71,passed,71,passed,76,good standing,good standing,summer school,summer school,72.67,53.7969,56.8354
+172,F,C,high school,reduced,yes,failed,57,passed,66,passed,71,math,summer school,good standing,good standing,64.67,78.4688,78.6675
+173,M,A,no high school,reduced,yes,passed,69,passed,64,passed,62,good standing,good standing,good standing,good standing,65.0,78.2031,76.2211
+174,M,B,high school,standard,yes,passed,83,passed,74,passed,72,good standing,good standing,summer school,summer school,76.33,74.3906,71.33
+175,F,D,high school,reduced,no,failed,50,failed,56,passed,60,math/reading,summer school,good standing,good standing,55.33,77.3594,74.75
+176,F,C,bachelor,standard,no,failed,55,failed,56,failed,56,math/reading,summer school,summer school,summer school,55.67,54.875,56.5
+177,M,B,no high school,reduced,no,failed,55,failed,53,failed,51,math/reading,summer school,good standing,good standing,53.0,78.8906,92.67
+178,F,D,high school,reduced,yes,passed,83,passed,93,passed,95,good standing,good standing,good standing,good standing,90.33,79.3125,76.5567
+179,M,D,high school,standard,yes,passed,89,passed,87,passed,86,good standing,good standing,summer school,good standing,87.33,75.0469,75.0
+180,F,D,no high school,standard,no,failed,51,passed,62,passed,64,math,summer school,summer school,summer school,59.0,71.5781,64.0
+181,F,C,high school,standard,no,failed,48,failed,52,failed,49,math/reading,summer school,good standing,good standing,49.67,50.1094,54.33
+182,F,E,bachelor,standard,no,passed,84,passed,95,passed,89,good standing,good standing,summer school,summer school,89.33,43.3281,40.802
+183,F,C,associate,standard,no,passed,69,passed,83,passed,76,good standing,good standing,good standing,good standing,76.0,79.4531,78.1675
+184,F,C,associate,standard,yes,passed,75,passed,85,passed,87,good standing,good standing,summer school,summer school,82.33,72.0469,70.0
+185,F,C,master,standard,no,passed,91,passed,100,passed,99,good standing,good standing,good standing,good standing,96.67,66.8281,62.0
+186,M,B,high school,standard,no,passed,76,passed,77,passed,67,good standing,good standing,good standing,good standing,73.33,50.4062,55.67
+187,M,E,no high school,reduced,no,passed,63,passed,61,failed,59,writing,summer school,good standing,good standing,61.0,78.6875,79.6
+188,M,D,high school,standard,no,passed,73,passed,65,passed,64,good standing,good standing,good standing,good standing,67.33,78.4688,78.6675
+189,M,B,no high school,reduced,yes,failed,52,passed,63,failed,53,math/writing,summer school,summer school,summer school,56.0,58.5469,61.0
+190,M,B,no high school,standard,yes,failed,58,failed,57,failed,53,math/reading,summer school,good standing,summer school,56.0,49.4844,47.8542
+191,F,B,no high school,standard,no,failed,33,failed,51,failed,51,math/reading,summer school,good standing,summer school,45.0,49.0625,46.67
+192,M,E,no high school,reduced,no,passed,68,passed,62,passed,61,good standing,good standing,good standing,good standing,63.67,76.125,72.0
+193,F,C,associate,standard,yes,passed,77,passed,91,passed,89,good standing,good standing,good standing,good standing,85.67,74.7812,77.3079
+194,F,C,bachelor,standard,no,passed,64,passed,64,passed,66,good standing,good standing,summer school,summer school,64.67,72.0469,70.0
+195,F,D,no high school,reduced,no,failed,39,failed,49,failed,48,math/reading,summer school,good standing,good standing,45.33,46.7656,52.67
+196,M,D,bachelor,standard,no,failed,50,failed,46,failed,48,math/reading,summer school,good standing,good standing,48.0,45.7031,44.445
+197,M,A,master,reduced,no,failed,53,failed,57,failed,51,math/reading,summer school,good standing,good standing,53.67,76.1094,77.9043
+198,F,B,associate,standard,yes,failed,54,passed,62,passed,70,math,summer school,summer school,summer school,62.0,73.0938,72.835
+199,M,D,high school,standard,no,passed,74,passed,63,passed,65,good standing,good standing,good standing,good standing,67.33,74.6094,69.0
+200,F,D,associate,standard,yes,failed,50,passed,63,passed,65,math,summer school,summer school,summer school,59.33,44.8906,41.8329
+201,M,E,associate,standard,no,failed,55,failed,54,failed,47,math/reading,summer school,summer school,summer school,52.0,77.5781,76.9043
+202,M,C,high school,standard,no,passed,77,passed,64,passed,70,good standing,good standing,good standing,good standing,70.33,76.2969,75.33
+203,F,B,no high school,standard,yes,failed,49,passed,64,passed,67,math,summer school,summer school,summer school,60.0,69.6719,68.7767
+204,F,D,associate,reduced,no,passed,66,passed,83,passed,82,good standing,good standing,summer school,summer school,77.0,60.2031,62.0
+205,M,B,no high school,standard,yes,passed,77,passed,74,passed,75,good standing,good standing,summer school,summer school,75.33,76.1094,78.5
+206,F,A,master,standard,yes,passed,74,passed,78,passed,84,good standing,good standing,good standing,good standing,78.67,84.2188,82.67
+207,M,C,high school,standard,no,passed,85,passed,78,passed,81,good standing,good standing,summer school,summer school,81.33,72.0469,70.0
+208,F,A,high school,standard,no,passed,77,passed,86,passed,84,good standing,good standing,good standing,good standing,82.33,77.2656,75.0
+209,F,B,associate,standard,no,passed,64,passed,62,passed,66,good standing,good standing,good standing,good standing,64.0,76.2969,70.1683
+210,F,D,high school,reduced,yes,passed,61,passed,69,passed,68,good standing,good standing,summer school,summer school,66.0,60.2031,62.0
+211,M,D,associate,standard,no,passed,97,passed,88,passed,85,good standing,good standing,summer school,summer school,90.0,73.75,72.22
+212,M,C,high school,standard,yes,passed,66,passed,75,passed,70,good standing,good standing,good standing,good standing,70.33,65.8438,62.2289
+213,M,C,no high school,standard,no,passed,62,passed,66,passed,64,good standing,good standing,summer school,summer school,64.0,73.5625,77.405
+214,F,E,no high school,standard,yes,passed,64,passed,80,passed,77,good standing,good standing,good standing,good standing,73.67,78.0312,78.67
+215,F,B,bachelor,reduced,no,failed,55,failed,57,passed,60,math/reading,summer school,summer school,summer school,57.33,79.0938,74.7156
+216,F,B,associate,standard,no,failed,53,passed,72,passed,66,math,summer school,summer school,summer school,63.67,75.0469,78.78
+217,F,D,high school,reduced,no,passed,71,passed,81,passed,77,good standing,good standing,summer school,summer school,76.33,75.4688,74.5
+218,M,B,high school,reduced,yes,passed,66,failed,59,passed,68,reading,summer school,good standing,good standing,64.33,72.875,71.475
+219,M,C,associate,standard,no,passed,68,passed,61,passed,62,good standing,good standing,good standing,good standing,63.67,77.4844,72.67
+220,M,D,high school,standard,no,passed,89,passed,90,passed,83,good standing,good standing,good standing,good standing,87.33,55.6719,59.0
+221,M,C,associate,standard,yes,passed,65,passed,69,passed,74,good standing,good standing,summer school,summer school,69.33,44.6406,36.0
+222,F,B,no high school,standard,no,failed,43,failed,48,failed,44,math/reading,summer school,good standing,good standing,45.0,74.6094,69.0
+223,F,D,master,standard,no,passed,79,passed,77,passed,83,good standing,good standing,summer school,good standing,79.67,63.1719,64.1335
+224,M,D,bachelor,standard,no,passed,99,passed,94,passed,97,good standing,good standing,summer school,summer school,96.67,69.6719,68.7767
+225,M,D,no high school,standard,no,passed,82,passed,69,passed,72,good standing,good standing,good standing,summer school,74.33,57.1094,55.3965
+226,M,D,high school,reduced,yes,failed,35,failed,36,failed,39,math/reading,summer school,good standing,good standing,36.67,76.9531,76.4764
+227,F,D,bachelor,reduced,no,passed,61,passed,71,passed,73,good standing,good standing,summer school,summer school,68.33,61.2344,61.5683
+228,F,D,high school,standard,no,passed,76,passed,80,passed,81,good standing,good standing,good standing,summer school,79.0,77.8906,75.8093
+229,M,C,associate,reduced,yes,passed,94,passed,83,passed,82,good standing,good standing,good standing,good standing,86.33,77.4844,72.67
+230,F,C,high school,standard,no,passed,75,passed,90,passed,78,good standing,good standing,good standing,good standing,81.0,77.1406,76.2
+231,M,B,high school,standard,no,passed,81,passed,75,passed,70,good standing,good standing,good standing,good standing,75.33,77.4844,72.67
+232,M,C,high school,reduced,no,failed,35,failed,44,failed,33,math/reading,summer school,summer school,summer school,37.33,75.6719,71.0
+233,M,C,high school,standard,no,passed,76,passed,74,passed,72,good standing,good standing,good standing,good standing,74.0,81.2031,69.33
+234,F,B,bachelor,standard,no,failed,58,passed,79,passed,82,math,summer school,good standing,good standing,73.0,81.0312,78.67
+235,M,C,associate,standard,yes,passed,100,passed,91,passed,90,good standing,good standing,summer school,summer school,93.67,74.5625,72.5722
+236,F,C,bachelor,standard,no,failed,53,passed,68,passed,64,math,summer school,good standing,good standing,61.67,73.7031,74.0825
+237,F,D,high school,standard,no,passed,82,passed,95,passed,96,good standing,good standing,good standing,good standing,91.0,79.5469,86.4433
+238,M,B,associate,standard,no,passed,76,passed,62,passed,64,good standing,good standing,summer school,summer school,67.33,73.2344,80.33
+239,M,C,bachelor,standard,yes,passed,83,passed,75,passed,75,good standing,good standing,good standing,good standing,77.67,73.9531,73.055
+240,F,D,high school,standard,no,passed,72,passed,84,passed,82,good standing,good standing,good standing,good standing,79.33,73.7031,74.0825
+241,M,D,associate,standard,yes,passed,76,passed,76,passed,83,good standing,good standing,summer school,summer school,78.33,75.4688,74.5
+242,M,D,no high school,standard,no,passed,66,passed,64,failed,58,writing,summer school,summer school,summer school,62.67,74.2031,71.5825
+243,M,C,high school,standard,no,passed,63,passed,65,passed,63,good standing,good standing,summer school,summer school,63.67,52.0781,56.7516
+244,M,B,no high school,standard,no,failed,36,failed,34,failed,28,math/reading,summer school,good standing,good standing,32.67,72.875,71.475
+245,M,C,high school,standard,no,passed,68,passed,74,passed,71,good standing,good standing,summer school,summer school,71.0,42.5,42.8338
+246,F,C,no high school,reduced,yes,failed,40,failed,52,failed,42,math/reading,summer school,good standing,good standing,44.67,76.7188,83.666
+247,M,D,no high school,standard,no,passed,68,passed,71,passed,61,good standing,good standing,summer school,summer school,66.67,73.75,72.22
+248,M,C,associate,standard,yes,failed,56,failed,54,failed,52,math/reading,summer school,summer school,summer school,54.0,47.2031,45.3185
+249,F,D,associate,reduced,no,passed,74,passed,83,passed,80,good standing,good standing,good standing,good standing,79.0,76.9531,76.4764
+250,F,D,high school,reduced,no,failed,53,passed,70,passed,71,math,summer school,summer school,summer school,64.67,46.3906,37.0
+251,M,B,no high school,standard,no,passed,88,passed,65,passed,70,good standing,good standing,good standing,good standing,74.33,76.7656,77.11
+252,M,D,no high school,standard,no,passed,67,passed,63,passed,61,good standing,good standing,summer school,summer school,63.67,53.2656,56.6663
+253,F,B,associate,standard,no,passed,60,passed,76,passed,65,good standing,good standing,good standing,good standing,67.0,79.0156,82.5
+254,F,C,high school,reduced,no,failed,51,passed,61,failed,54,math/writing,summer school,good standing,good standing,55.33,80.9844,91.5
+255,F,D,no high school,standard,no,failed,53,passed,66,failed,59,math/writing,summer school,good standing,good standing,59.33,79.9375,79.19
+256,M,A,bachelor,standard,no,passed,80,passed,78,passed,74,good standing,good standing,good standing,good standing,77.33,83.2969,87.7767
+257,F,E,no high school,standard,no,passed,69,passed,71,passed,67,good standing,good standing,good standing,good standing,69.0,74.7812,77.3079
+258,F,B,no high school,reduced,no,passed,64,passed,79,passed,70,good standing,good standing,good standing,good standing,71.0,47.6094,47.7386
+259,F,D,associate,reduced,yes,passed,80,passed,87,passed,89,good standing,good standing,good standing,good standing,85.33,76.9531,76.4764
+260,F,A,no high school,standard,no,failed,58,passed,72,passed,62,math,summer school,good standing,good standing,64.0,76.9531,76.4764
+261,F,C,high school,standard,no,failed,39,failed,46,failed,50,math/reading,summer school,good standing,good standing,45.0,64.6094,62.6132
+262,M,D,no high school,standard,no,passed,64,failed,56,failed,50,reading/writing,summer school,summer school,summer school,56.67,43.3281,40.802
+263,M,D,associate,standard,no,passed,61,passed,66,passed,63,good standing,good standing,good standing,good standing,63.33,74.6094,69.0
+264,M,D,no high school,standard,yes,passed,90,passed,82,passed,88,good standing,good standing,good standing,good standing,86.67,65.5469,73.0
+265,M,D,no high school,standard,no,passed,73,passed,71,passed,64,good standing,good standing,summer school,summer school,69.33,64.0,62.0495
+266,M,C,associate,standard,no,passed,73,passed,73,passed,70,good standing,good standing,good standing,good standing,72.0,45.7031,44.445
+267,F,D,associate,standard,no,passed,67,passed,76,passed,77,good standing,good standing,good standing,good standing,73.33,52.2656,49.474
+268,F,B,high school,standard,no,failed,57,failed,58,passed,62,math/reading,summer school,summer school,good standing,59.0,55.9062,57.0
+269,F,E,high school,standard,no,passed,65,passed,73,passed,72,good standing,good standing,good standing,good standing,70.0,80.375,82.0
+270,F,C,no high school,standard,no,passed,71,passed,72,passed,71,good standing,good standing,good standing,good standing,71.33,79.9375,75.38
+271,F,D,no high school,standard,no,failed,59,passed,69,passed,72,math,summer school,summer school,summer school,66.67,57.3281,58.67
+272,M,B,high school,standard,yes,passed,74,passed,71,passed,65,good standing,good standing,summer school,good standing,70.0,45.6875,47.9993
+273,F,E,high school,standard,no,passed,93,passed,100,passed,93,good standing,good standing,summer school,summer school,95.33,59.6094,64.5
+274,F,B,no high school,standard,yes,passed,85,passed,93,passed,92,good standing,good standing,good standing,good standing,90.0,76.9531,76.4764
+275,F,E,no high school,standard,no,passed,76,passed,83,passed,79,good standing,good standing,summer school,summer school,79.33,42.5,42.8338
+276,F,D,high school,reduced,no,failed,58,passed,72,passed,70,math,summer school,good standing,good standing,66.67,51.4062,49.4141
+277,F,E,associate,standard,no,passed,72,passed,77,passed,77,good standing,good standing,good standing,good standing,75.33,80.2031,86.1675
+278,F,B,high school,standard,no,failed,40,failed,49,failed,47,math/reading,summer school,summer school,summer school,45.33,45.7031,48.8867
+279,M,D,high school,standard,yes,passed,75,passed,73,passed,66,good standing,good standing,good standing,good standing,71.33,79.2031,82.67
+280,M,D,no high school,standard,no,passed,85,passed,81,passed,80,good standing,good standing,good standing,good standing,82.0,75.875,73.3333
+281,M,E,associate,standard,yes,passed,100,passed,100,passed,100,good standing,good standing,good standing,good standing,100.0,78.8594,75.89
+282,F,B,high school,reduced,yes,failed,53,passed,65,passed,66,math,summer school,good standing,good standing,61.33,80.1406,82.67
+283,M,D,high school,reduced,no,failed,40,failed,42,failed,39,math/reading,summer school,good standing,good standing,40.33,74.6094,69.0
+284,M,B,bachelor,reduced,no,failed,49,failed,49,failed,49,math/reading,summer school,good standing,good standing,49.0,76.5156,73.5
+285,M,C,associate,standard,no,passed,77,passed,80,passed,80,good standing,good standing,summer school,summer school,79.0,44.4062,45.5533
+286,F,D,high school,standard,no,passed,82,passed,89,passed,84,good standing,good standing,summer school,summer school,85.0,46.9844,46.1778
+287,M,C,high school,standard,no,failed,55,failed,48,failed,42,math/reading,summer school,summer school,good standing,48.33,75.0469,75.0
+288,F,C,no high school,reduced,no,passed,62,passed,71,passed,77,good standing,good standing,summer school,summer school,70.0,77.5781,76.9043
+289,M,B,high school,standard,yes,passed,69,passed,63,failed,59,writing,summer school,good standing,summer school,63.67,75.4688,75.4771
+290,M,C,associate,standard,no,passed,78,passed,74,passed,76,good standing,good standing,good standing,good standing,76.0,66.1406,63.2099
+291,F,B,high school,reduced,yes,passed,71,passed,77,passed,82,good standing,good standing,good standing,good standing,76.67,76.7344,77.4433
+292,M,D,high school,reduced,yes,failed,59,passed,71,passed,66,math,summer school,good standing,good standing,65.33,76.7656,77.11
+293,F,D,high school,reduced,no,passed,60,passed,75,passed,70,good standing,good standing,summer school,summer school,68.33,58.7344,57.0
+294,F,C,bachelor,reduced,yes,failed,43,passed,60,passed,60,math,summer school,good standing,good standing,54.33,64.2656,61.5
+295,F,C,no high school,standard,no,passed,77,passed,83,passed,86,good standing,good standing,summer school,good standing,82.0,75.0469,75.0
+296,M,D,no high school,reduced,no,failed,50,failed,47,failed,46,math/reading,summer school,good standing,good standing,47.67,73.9531,73.055
+297,F,E,bachelor,reduced,no,failed,56,failed,58,failed,52,math/reading,summer school,summer school,summer school,55.33,44.2031,48.0
+298,M,B,high school,standard,no,passed,69,failed,58,failed,50,reading/writing,summer school,good standing,good standing,59.0,80.6875,86.335
+299,M,D,high school,standard,no,failed,47,failed,43,failed,39,math/reading,summer school,summer school,good standing,43.0,47.8594,49.78
