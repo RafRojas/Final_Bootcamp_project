@@ -36,4 +36,4 @@ There are 6 available models to predict our data. The best results were given by
 - The parental education seemed to be the most relevant value when it comes to predicting the students GPA.
 - The models did not seem to take into account that the students without the standard lunch plan had a lower GPA.
 - The test preparation course did not seem to be that important for the students results.
-- All the extra curricular activities seemed to help students get better results on their exams.
+- The students with the most extra curricular activities seemed to get better results on their exams.
