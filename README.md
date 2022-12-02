@@ -1,6 +1,6 @@
 # Final Bootcamp Project:
 
-A school in the United States is interested on knowing in advance which of their students may or may not end in summer school at the end of the year. The head of the school has been gathering data of the students performance and also some characteristics they consider relevant. 
+A school in the United States is interested on knowing in advance which of their students may or may not end in summer school at the end of the year. The head of the school has been gathering data of the student's performances and also some characteristics they consider relevant. 
 
 The principal has hired us to make a machine learning model to predict the flow of students to the school in the summer break, they want an estimate of how many students will attend their summer school to catch up on their failed classes.
 
