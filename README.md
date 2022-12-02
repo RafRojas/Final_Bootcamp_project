@@ -17,7 +17,7 @@ We will ask ourselves some burning questions such as:
 # Dataframe: 
 - Gender: male or female.
 - Ethnicity: divided into groups going from A to E.
-- Parental education: goes from some high school to some college, incluiding the completed degrees in between such as associates.
+- Parental education: goes from some high school to some college, including the completed degrees in between such as associates.
 - Lunch plan: the students have to pick between the paid standard lunch plan and the free reduced lunch plan.
 - Test preparation Course: the school has available an optional course to help the alumny study for their exams.
 - Math score: the results of the math exam.
